@@ -13,6 +13,7 @@ class JobsController < ApplicationController
   def create
     @jobs = Job.new(job_params)
     @jobs = current_user.jobs.build(job_params)
+    @jobs = @jobs.service_areas.build
     binding.pry
     if @jobs.save
       flash[:notice] = "Job successfully created!"
@@ -52,6 +53,6 @@ class JobsController < ApplicationController
   private
 
   def job_params
-    params.require(:job).permit(:title, :description, category_attributes: [:name], :service_area_attributes =>[:name])
+    params.require(:job).permit(:title, :description, category_attributes: [:name], service_area_attributes: [:name])
   end
 end
