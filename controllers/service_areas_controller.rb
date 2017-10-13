@@ -1,2 +1,0 @@
-class ServiceAreasController < ApplicationController
-end
