@@ -1,0 +1,7 @@
+<div id="job">
+<h2><%= @job.title %></h2>
+  <p> Type of work they do: <%= @job.category.name %></p>
+  <p> Things about them: <%= @job.description %></p>
+  <p> Areas they service </p>
+  <% @job.service_areas.name %>
+</div>
