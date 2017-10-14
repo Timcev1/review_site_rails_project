@@ -14,7 +14,7 @@
   <% if user_signed_in? %>
     <%= link_to "Create a new comment", new_job_comment_path(@job) %>
   <% end %>
-  <div class="actions">
+  <div class="useractions">
     <p>As the maker of this you have these Options</p>
     <% if @job.user_id == current_user.id %>
       <%= link_to 'Delete this Job', @job, method: :delete, data: { confirm: 'Are you sure?' } %>
