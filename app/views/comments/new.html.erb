@@ -1,6 +1,16 @@
 <h2 class="center">Add a comment</h2>
+<% if @comments.errors.any? %>
+  <div id="error_explanation">
+    <ul>
+    <% @comments.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end%>
 <%= form_for([@job, @comments]) do |c| %>
 <div class="field">
+  <%= hidden_field_tag "job_id", @job.id%>
   <%= c.label :comments %><br>
   <%= c.text_area :comments %><br>
   <%= c.label :rating %><br>

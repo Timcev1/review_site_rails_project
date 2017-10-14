@@ -3,6 +3,7 @@ class Job < ApplicationRecord
   belongs_to :category
   has_many :comments
   has_many :service_areas
+  validates :title, :description, :category_id, presence: true
 
     def service_areas_attributes=(service_areas_attributes)
       service_areas_attributes.each do |key, value|

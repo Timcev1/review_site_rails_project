@@ -6,11 +6,11 @@
   <% @job.service_areas.each do |s| %>
     <%= s.name %><br>
   <% end %>
-  <% if @job.comments != [] %>
-    <p> Comments: </p>
+  <% if @job.comments != nil %>
+    <h4> Comments: </h4>
       <% @job.comments.each do |c|%>
-        <%= c.comment %>
-        <%= c.rating %>
+        <p>Comment: <%= c.comments %></p>
+        <p>Rating: <%= c.rating %></p>
       <% end %>
     <% end %>
   <% if user_signed_in? %>
@@ -23,4 +23,5 @@
       <%= link_to "Edit", edit_job_path %>
     <%end%>
   </div>
+  <h5>submited by: <%= @job.user.email %></h5>
 </div>

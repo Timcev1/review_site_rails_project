@@ -5,14 +5,14 @@ class CommentsController < ApplicationController
   end
 
   def create
-    @job = Job.find(params[:job_id])
-    @job.comments.build(comments_params)
-    if @job.save
+    @jobs = Job.find(params[:job_id])
+    @comments = @jobs.comments.create(comments_params)
+    if @comments.valid?
       flash[:notice] = "Comment added."
       redirect_to job_path(@job)
     else
       flash[:alert] = "comment not added."
-      redirect_to job_path(@job)
+      redirect_to new_job_comment_path(@job)
     end
   end
 
