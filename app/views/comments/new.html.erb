@@ -1,7 +1,9 @@
-<% form_for(@comment) do |com|%>
+<%= form_for(@comments) do |com|%>
+
+  <%= f.hidden_field :job_id %>
   <%= com.label :comment %>
   <%= com.text_field :comment %>
   <%= com.label :rating %>
   <%= com.number_field :rating %>
   <%= com.submit %>
-  <%end%>
+<%end%>

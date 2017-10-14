@@ -1,13 +1,18 @@
 class CommentsController < ApplicationController
+  def new
+    binding.pry
+    @comments = Job.find(params[:job_id]).comments.new
+  end
+
   def create
-    @recipe = Recipe.find(params[:recipe_id])
-    @recipe.comments.build(comments_params)
-    if @recipe.save
+    @job = Job.find(params[:job_id])
+    @job.comments.build(comments_params)
+    if @job.save
       flash[:notice] = "Comment added."
-      redirect_to recipe_path(@recipe)
+      redirect_to job_path(@job)
     else
       flash[:alert] = "comment not added."
-      redirect_to recipe_path(@recipe)
+      redirect_to job_path(@job)
     end
   end
 
@@ -19,6 +24,6 @@ class CommentsController < ApplicationController
   end
 
   def comments_params
-    params.require(:comment).permit(:comment, :rating)
+    params.require(:comment).permit(:comments, :rating)
   end
 end
