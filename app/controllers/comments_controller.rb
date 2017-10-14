@@ -1,6 +1,7 @@
 class CommentsController < ApplicationController
+  before_action :get_job
   def new
-    @comments = Comment.new(job_id: params[:job_id])
+    @comments = @job.comments.build
   end
 
   def create
@@ -20,6 +21,12 @@ class CommentsController < ApplicationController
     @comment.destroy
     flash[:notice] = "Successfully deleted."
     redirect_to root_path
+  end
+
+  private
+
+  def get_job
+    @job = Job.find(params[:job_id])
   end
 
   def comments_params

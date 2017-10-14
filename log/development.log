@@ -12801,3 +12801,1824 @@ Processing by JobsController#index as HTML
 Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for 76.101.4.106 at 2017-10-14 13:43:47 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 781ms (Views: 752.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/favicon.ico" for 76.101.4.106 at 2017-10-14 13:43:49 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.3ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb [50 times] (30.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (19.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (192.0ms)
+Started GET "/users/sign_up" for 76.101.4.106 at 2017-10-14 13:44:21 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/views/devise/shared/_links.html.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/views/devise/registrations/new.html.erb within layouts/application (50.2ms)
+Completed 200 OK in 142ms (Views: 101.4ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/users/auth/github" for 76.101.4.106 at 2017-10-14 13:44:22 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/users/auth/github" for 76.101.4.106 at 2017-10-14 13:44:23 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "//users/auth/github/callback?error=redirect_uri_mismatch&error_description=The+redirect_uri+MUST+match+the+registered+callback+URL+for+this+application.&error_uri=https%3A%2F%2Fdeveloper.github.com%2Fv3%2Foauth%2F%23redirect-uri-mismatch&state=1556553b2217367abdde519df644793740db733a6174126b" for 76.101.4.106 at 2017-10-14 13:44:23 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CallbacksController#github as HTML
+  Parameters: {"error"=>"redirect_uri_mismatch", "error_description"=>"The redirect_uri MUST match the registered callback URL for this application.", "error_uri"=>"https://developer.github.com/v3/oauth/#redirect-uri-mismatch", "state"=>"1556553b2217367abdde519df644793740db733a6174126b"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `provider' for nil:NilClass):
+  
+app/models/user.rb:10:in `from_omniauth'
+app/controllers/callbacks_controller.rb:3:in `github'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.2ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.9ms)
+Started GET "/users/sign_in" for 76.101.4.106 at 2017-10-14 13:44:32 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/views/devise/shared/_links.html.erb (5.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/views/devise/sessions/new.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 106ms (Views: 100.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/github" for 76.101.4.106 at 2017-10-14 13:44:34 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/users/auth/github" for 76.101.4.106 at 2017-10-14 13:44:34 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "//users/auth/github/callback?error=redirect_uri_mismatch&error_description=The+redirect_uri+MUST+match+the+registered+callback+URL+for+this+application.&error_uri=https%3A%2F%2Fdeveloper.github.com%2Fv3%2Foauth%2F%23redirect-uri-mismatch&state=d9aa4b931d6a05838bf1b69dab9b0d5391536391a721748d" for 76.101.4.106 at 2017-10-14 13:44:34 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CallbacksController#github as HTML
+  Parameters: {"error"=>"redirect_uri_mismatch", "error_description"=>"The redirect_uri MUST match the registered callback URL for this application.", "error_uri"=>"https://developer.github.com/v3/oauth/#redirect-uri-mismatch", "state"=>"d9aa4b931d6a05838bf1b69dab9b0d5391536391a721748d"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `provider' for nil:NilClass):
+  
+app/models/user.rb:10:in `from_omniauth'
+app/controllers/callbacks_controller.rb:3:in `github'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.2ms)
+  [1m[35m (3.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (4.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20171012133719)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "job_id" integer)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20171012133719"]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateJobs (20171012133836)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "jobs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "description" text, "category_id" integer, "comment_id" integer, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20171012133836"]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateCategories (20171012134740)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "categories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20171012134740"]]
+  [1m[35m (8.3ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateComments (20171012134747)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "comments" text, "rating" integer, "job_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20171012134747"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateServiceAreas (20171012141356)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "service_areas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "job_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20171012141356"]]
+  [1m[35m (14.1ms)[0m  [1m[36mcommit transaction[0m
+Migrating to AddOmniauthToUsers (20171014023433)
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "users" ADD "provider" varchar[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "users" ADD "uid" varchar[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20171014023433"]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-10-14 13:45:18.619472"], ["updated_at", "2017-10-14 13:45:18.619472"]]
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+Started GET "/users/sign_in" for 76.101.4.106 at 2017-10-14 13:45:36 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/views/devise/shared/_links.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/views/devise/sessions/new.html.erb within layouts/application (57.7ms)
+Completed 200 OK in 340ms (Views: 305.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/sign_up" for 76.101.4.106 at 2017-10-14 13:45:41 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/views/devise/shared/_links.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/devise-4.3.0/app/views/devise/registrations/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 57ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/github" for 76.101.4.106 at 2017-10-14 13:45:43 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/users/auth/github" for 76.101.4.106 at 2017-10-14 13:45:43 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "//users/auth/github/callback?error=redirect_uri_mismatch&error_description=The+redirect_uri+MUST+match+the+registered+callback+URL+for+this+application.&error_uri=https%3A%2F%2Fdeveloper.github.com%2Fv3%2Foauth%2F%23redirect-uri-mismatch&state=5f751fac8d9e0ac67e1c6b65b353377e9e9896843aa23b86" for 76.101.4.106 at 2017-10-14 13:45:43 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CallbacksController#github as HTML
+  Parameters: {"error"=>"redirect_uri_mismatch", "error_description"=>"The redirect_uri MUST match the registered callback URL for this application.", "error_uri"=>"https://developer.github.com/v3/oauth/#redirect-uri-mismatch", "state"=>"5f751fac8d9e0ac67e1c6b65b353377e9e9896843aa23b86"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `provider' for nil:NilClass):
+  
+app/models/user.rb:10:in `from_omniauth'
+app/controllers/callbacks_controller.rb:3:in `github'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (59.2ms)
+Started GET "/users/auth/github" for 76.101.4.106 at 2017-10-14 13:46:04 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/users/auth/github" for 76.101.4.106 at 2017-10-14 13:46:04 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "//users/auth/github/callback?error=redirect_uri_mismatch&error_description=The+redirect_uri+MUST+match+the+registered+callback+URL+for+this+application.&error_uri=https%3A%2F%2Fdeveloper.github.com%2Fv3%2Foauth%2F%23redirect-uri-mismatch&state=27df1ac2f1d047f28448d57dc120d9e849a31ae61248d755" for 76.101.4.106 at 2017-10-14 13:46:04 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CallbacksController#github as HTML
+  Parameters: {"error"=>"redirect_uri_mismatch", "error_description"=>"The redirect_uri MUST match the registered callback URL for this application.", "error_uri"=>"https://developer.github.com/v3/oauth/#redirect-uri-mismatch", "state"=>"27df1ac2f1d047f28448d57dc120d9e849a31ae61248d755"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `provider' for nil:NilClass):
+  
+app/models/user.rb:10:in `from_omniauth'
+app/controllers/callbacks_controller.rb:3:in `github'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (48.9ms)
+Started GET "/users/auth/github" for 76.101.4.106 at 2017-10-14 13:46:15 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/users/auth/github" for 76.101.4.106 at 2017-10-14 13:46:16 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/users/auth/github/callback?code=6334c0dfcc84a72afd86&state=79ad9f972066e69d998d3a251ff55828a9b6038496d7a0e3" for 76.101.4.106 at 2017-10-14 13:46:16 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CallbacksController#github as HTML
+  Parameters: {"code"=>"6334c0dfcc84a72afd86", "state"=>"79ad9f972066e69d998d3a251ff55828a9b6038496d7a0e3"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."provider" = ? AND "users"."uid" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["provider", "github"], ["uid", "23039442"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "timcev@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "provider", "uid") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "timcev@gmail.com"], ["encrypted_password", "$2a$11$gpNcjRfU8VNBNC76wDnZ1uvCW4pRWS66o0nbwepXo9uAtGnDseMbW"], ["created_at", "2017-10-14 13:46:16.899040"], ["updated_at", "2017-10-14 13:46:16.899040"], ["provider", "github"], ["uid", "23039442"]]
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = ?, "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["sign_in_count", 1], ["current_sign_in_at", "2017-10-14 13:46:16.912441"], ["last_sign_in_at", "2017-10-14 13:46:16.912441"], ["current_sign_in_ip", "76.101.4.106"], ["last_sign_in_ip", "76.101.4.106"], ["updated_at", "2017-10-14 13:46:16.914330"], ["id", 1]]
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://67.205.188.72:33918/
+Completed 302 Found in 297ms (ActiveRecord: 14.2ms)
+
+
+Started GET "/" for 76.101.4.106 at 2017-10-14 13:46:16 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (3.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 67ms (Views: 45.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 13:46:21 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 34ms (Views: 32.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/categories" for 76.101.4.106 at 2017-10-14 13:46:22 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (3.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 60ms (Views: 48.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 13:46:23 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (14.1ms)
+  Rendered jobs/new.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 120ms (Views: 56.5ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 13:46:45 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7Fg1rpV18IUhKFMC6GNOTeFN0CV/nBJd3GiH8ykuuWWVY5vad2MGnEhsbkZ8bo05uBqRQmIKpvGQ7JxLpkojjQ==", "job"=>{"title"=>"Miner", "category_attributes"=>{"name"=>"mining"}, "description"=>"Work hard and mine hard", "service_areas_attributes"=>{"name"=>"mining"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: service_areas_attributes
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "mining"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "mining"], ["created_at", "2017-10-14 13:46:45.346927"], ["updated_at", "2017-10-14 13:46:45.346927"]]
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+Unpermitted parameter: service_areas_attributes
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "mining"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "jobs" ("title", "description", "category_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Miner"], ["description", "Work hard and mine hard"], ["category_id", 1], ["user_id", 1], ["created_at", "2017-10-14 13:47:03.219313"], ["updated_at", "2017-10-14 13:47:03.219313"]]
+  [1m[35m (34.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://67.205.188.72:33918/jobs
+Completed 302 Found in 17945ms (ActiveRecord: 39.2ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 13:47:03 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (8.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 66ms (Views: 59.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/jobs/1" for 76.101.4.106 at 2017-10-14 13:58:29 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mJob Load (2.5ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  [1m[36mCategory Load (2.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered jobs/show.html.erb within layouts/application (61.1ms)
+Completed 200 OK in 152ms (Views: 112.7ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 13:58:32 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 54ms (Views: 49.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/categories" for 76.101.4.106 at 2017-10-14 13:58:33 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 38ms (Views: 35.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 13:58:34 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.4ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (3.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 62ms (Views: 59.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 13:59:29 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (5.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 48ms (Views: 41.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 13:59:31 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (10.2ms)
+  Rendered jobs/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 60ms (Views: 51.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:00:41 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (5.5ms)
+  Rendered jobs/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 45ms (Views: 38.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:01:44 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (31.8ms)
+  Rendered jobs/new.html.erb within layouts/application (35.1ms)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `service_area' for #<Job:0x007f827883e490>
+Did you mean?  service_areas
+               service_areas=):
+    14:     <%= r.text_area :description %>
+    15:   </div>
+    16:   <p> Area They service </p>
+    17:   <%= r.fields_for :service_area do |ing| %>
+    18:     <div class="field">
+    19:       <%= ing.label :name %> <%= ing.text_field :name %><br>
+    20:     </div>
+  
+app/views/jobs/_form.html.erb:17:in `block in _app_views_jobs__form_html_erb___3547690148261668741_28800180'
+app/views/jobs/_form.html.erb:1:in `_app_views_jobs__form_html_erb___3547690148261668741_28800180'
+app/views/jobs/new.html.erb:11:in `_app_views_jobs_new_html_erb___881716077696745942_70099172207180'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (54.4ms)
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:01:55 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (6.7ms)
+  Rendered jobs/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 53ms (Views: 45.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 14:03:56 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (3.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 41ms (Views: 34.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 14:04:00 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (3.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 47ms (Views: 43.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/categories" for 76.101.4.106 at 2017-10-14 14:04:01 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (3.2ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 58ms (Views: 54.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 14:04:03 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (2.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 46ms (Views: 42.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/categories" for 76.101.4.106 at 2017-10-14 14:04:06 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/categories/1" for 76.101.4.106 at 2017-10-14 14:04:07 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering categories/show.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."category_id" = ?[0m  [["category_id", 1]]
+  Rendered categories/show.html.erb within layouts/application (4.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 42ms (Views: 36.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/jobs/1" for 76.101.4.106 at 2017-10-14 14:04:08 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered jobs/show.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 47ms (Views: 44.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:04:19 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (5.2ms)
+  Rendered jobs/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 51ms (Views: 45.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:04:37 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N0Waq2DpnJhMoa2qSIM10c6iJn4MDMDoqrarNkDkQxNOfjTfgv9qgSXlkO7cjvall/VnGRGadETmMrCOz4DZ+w==", "job"=>{"title"=>"plum", "category_attributes"=>{"name"=>"plumber"}, "description"=>"apl ", "service_areas_attributes"=>{"name"=>"naples"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: service_areas_attributes
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "plumber"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.5ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "plumber"], ["created_at", "2017-10-14 14:04:37.784018"], ["updated_at", "2017-10-14 14:04:37.784018"]]
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+Unpermitted parameter: service_areas_attributes
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "plumber"], ["LIMIT", 1]]
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:08:29 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "jobs" ("title", "description", "category_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "plum"], ["description", "apl "], ["category_id", 2], ["user_id", 1], ["created_at", "2017-10-14 14:08:32.609192"], ["updated_at", "2017-10-14 14:08:32.609192"]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://67.205.188.72:33918/jobs
+Completed 302 Found in 234849ms (ActiveRecord: 10.5ms)
+
+
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (7.2ms)
+  Rendered jobs/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 131ms (Views: 50.5ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/jobs/1" for 76.101.4.106 at 2017-10-14 14:08:38 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered jobs/show.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 82ms (Views: 75.2ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:08:46 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (6.3ms)
+  Rendered jobs/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 41ms (Views: 36.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:08:53 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oPldV32GskJuCKgZIN3yo5QlZKrIe9tH74aaig+uuUQF2MqZBjY6IxubDXp1skb6fpb+JwRv1L2WgjTd/fiaNA==", "job"=>{"title"=>"mon", "category_attributes"=>{"name"=>"masa"}, "description"=>"ds", "service_areas_attributes"=>{"name"=>"dssd"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: service_areas_attributes
+  [1m[36mCategory Load (1.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "masa"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "masa"], ["created_at", "2017-10-14 14:08:53.648674"], ["updated_at", "2017-10-14 14:08:53.648674"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+Unpermitted parameter: service_areas_attributes
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "masa"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "jobs" ("title", "description", "category_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "mon"], ["description", "ds"], ["category_id", 3], ["user_id", 1], ["created_at", "2017-10-14 14:10:02.085145"], ["updated_at", "2017-10-14 14:10:02.085145"]]
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://67.205.188.72:33918/jobs
+Completed 302 Found in 68467ms (ActiveRecord: 13.0ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 14:10:02 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.7ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (22.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 135ms (Views: 122.3ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:10:07 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (19.7ms)
+  Rendered jobs/new.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 76ms (Views: 49.1ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:10:14 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sYaY0Ncsy7Bs4kAxoH8n+uR/OtOvgPKRVCIRe+TufUjIvTakNTo9qQWmfXU0cuSOvSh7tLIWRj0YpgrDa4rnoA==", "job"=>{"title"=>"poas", "category_attributes"=>{"name"=>"asa"}, "description"=>"gdfsd", "service_areas_attributes"=>{"name"=>"dfs"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "asa"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "asa"], ["created_at", "2017-10-14 14:10:14.363726"], ["updated_at", "2017-10-14 14:10:14.363726"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 110454ms (ActiveRecord: 5.6ms)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument.):
+  
+app/models/job.rb:10:in `block in service_areas_attributes='
+app/models/job.rb:9:in `each'
+app/models/job.rb:9:in `service_areas_attributes='
+app/controllers/jobs_controller.rb:14:in `create'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.1ms)
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:14:16 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sYaY0Ncsy7Bs4kAxoH8n+uR/OtOvgPKRVCIRe+TufUjIvTakNTo9qQWmfXU0cuSOvSh7tLIWRj0YpgrDa4rnoA==", "job"=>{"title"=>"poas", "category_attributes"=>{"name"=>"asa"}, "description"=>"gdfsd", "service_areas_attributes"=>{"name"=>"dfs"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "asa"], ["LIMIT", 1]]
+Completed 422 Unprocessable Entity in 54ms (ActiveRecord: 3.2ms)
+
+
+  
+ActiveRecord::RecordNotSaved (You cannot call create unless the parent is saved):
+  
+app/models/job.rb:9:in `service_areas_attributes='
+app/controllers/jobs_controller.rb:14:in `create'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (48.1ms)
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:14:25 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (8.8ms)
+  Rendered jobs/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 56ms (Views: 40.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:14:35 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+3WNgEocanS78oRm9bha+pFMch4L49gelmo/4iGPbwNeVBpOMaziFc5hIQWg1+6je//ok8f31+TvbpG109lMcw==", "job"=>{"title"=>"as", "category_attributes"=>{"name"=>"dsdf"}, "description"=>"aple", "service_areas_attributes"=>{"name"=>"apple"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "dsdf"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "dsdf"], ["created_at", "2017-10-14 14:14:35.362545"], ["updated_at", "2017-10-14 14:14:35.362545"]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+Completed 422 Unprocessable Entity in 13ms (ActiveRecord: 5.4ms)
+
+
+  
+ActiveRecord::RecordNotSaved (You cannot call create unless the parent is saved):
+  
+app/models/job.rb:9:in `service_areas_attributes='
+app/controllers/jobs_controller.rb:14:in `create'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.3ms)
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:15:59 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+3WNgEocanS78oRm9bha+pFMch4L49gelmo/4iGPbwNeVBpOMaziFc5hIQWg1+6je//ok8f31+TvbpG109lMcw==", "job"=>{"title"=>"as", "category_attributes"=>{"name"=>"dsdf"}, "description"=>"aple", "service_areas_attributes"=>{"name"=>"apple"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "dsdf"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 4.2ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'title' for ServiceArea.):
+  
+app/models/job.rb:9:in `service_areas_attributes='
+app/controllers/jobs_controller.rb:14:in `create'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (49.1ms)
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 14:16:04 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (2.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:16:07 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (5.2ms)
+  Rendered jobs/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 42ms (Views: 35.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:16:22 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ysAyp6Pgz+pycrJ1S6jRTireSJp1m3XL0MFrJKB3dEtv4aVp2FBHiwfhFxYex2UXwG3SF7mPejGpxcVzUiFXOw==", "job"=>{"title"=>"lsoc", "category_attributes"=>{"name"=>"lock"}, "description"=>"asa", "service_areas_attributes"=>{"name"=>"good man"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "lock"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "lock"], ["created_at", "2017-10-14 14:16:22.225757"], ["updated_at", "2017-10-14 14:16:22.225757"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 4.4ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'title' for ServiceArea.):
+  
+app/models/job.rb:9:in `service_areas_attributes='
+app/controllers/jobs_controller.rb:14:in `create'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.0ms)
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:17:31 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (5.5ms)
+  Rendered jobs/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 94ms (Views: 36.1ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:17:44 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CfrwmZbVpBnsMj3CRhVSW3GBToh5OdCCbIl1HVK8//Gs22dX7WUseJmhmKETeuYCmzLUBbUt33gVjdtKoOrcgQ==", "job"=>{"title"=>"mon", "category_attributes"=>{"name"=>"asa"}, "description"=>"sd", "service_areas_attributes"=>{"name"=>"nok"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCategory Load (1.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "asa"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "asa"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (8.1ms)
+  Rendered jobs/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 25986ms (Views: 56.9ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:19:45 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2uweraIzql+sQ56HY74AcU/GQAAP/u3RYXI2uKnGfM9/zYlj2YMiPtnQO+Q20bQopXXajcPq4isYdpjvW5Bfvw==", "job"=>{"title"=>"mon", "category_attributes"=>{"name"=>"time"}, "description"=>"sd", "service_areas_attributes"=>{"name"=>"lpas"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCategory Load (1.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "time"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.9ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "time"], ["created_at", "2017-10-14 14:19:46.007949"], ["updated_at", "2017-10-14 14:19:46.007949"]]
+  [1m[35m (12.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "time"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (8.4ms)
+  Rendered jobs/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 467122ms (Views: 48.5ms | ActiveRecord: 19.4ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 14:27:38 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.5ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (12.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 69ms (Views: 55.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:27:41 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (5.1ms)
+  Rendered jobs/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 54ms (Views: 32.8ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:27:49 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WdXY5xBeXof0y2OZbJU68wO2tLtiK6M1IOXeuo10ek4g7naT8kionp2PXt34mPmHWuH13H+9F5lsYcUCAhDgpg==", "job"=>{"title"=>"plumber", "category_attributes"=>{"name"=>"plumber"}, "description"=>"plumbera", "service_areas_attributes"=>{"name"=>"pul"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "plumber"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+Completed 422 Unprocessable Entity in 27ms (ActiveRecord: 1.4ms)
+
+
+  
+ActiveRecord::RecordNotSaved (You cannot call create unless the parent is saved):
+  
+app/models/job.rb:9:in `service_areas_attributes='
+app/controllers/jobs_controller.rb:14:in `create'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.0ms)
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:31:23 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (7.5ms)
+  Rendered jobs/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 105ms (Views: 56.0ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:31:31 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/qM7ylaYEli2qgdQeTdvnCSBLmtVOXX8WWsmcgfG26NbgqwELSiaOcM5ojMsWNvFzjK05pktegYgb4gl9ZD40w==", "job"=>{"title"=>"pai", "category_attributes"=>{"name"=>"asad"}, "description"=>"ds", "service_areas_attributes"=>{"name"=>"gdx"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "asad"], ["LIMIT", 1]]
+  [1m[35mSQL (2.9ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "asad"], ["created_at", "2017-10-14 14:31:31.121650"], ["updated_at", "2017-10-14 14:31:31.121650"]]
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (14.6ms)
+  Rendered jobs/new.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 164752ms (Views: 73.5ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 14:34:21 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.6ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (12.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 78ms (Views: 66.9ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:34:23 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (5.6ms)
+  Rendered jobs/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 48ms (Views: 31.6ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:34:32 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/o+wkyog9Widek3bAwJGmZXsVgmnqE7oRlhStI5m+bWHtB7nyDYDcfQ+cJ+XD4XtzLsXbro++kQK3EkMAQJjXQ==", "job"=>{"title"=>"msas", "category_attributes"=>{"name"=>"dsd"}, "description"=>"mon", "service_areas_attributes"=>{"name"=>"sdsa"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "dsd"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "dsd"], ["created_at", "2017-10-14 14:34:32.490380"], ["updated_at", "2017-10-14 14:34:32.490380"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "jobs" ("title", "description", "category_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "msas"], ["description", "mon"], ["category_id", 9], ["user_id", 1], ["created_at", "2017-10-14 14:34:32.510411"], ["updated_at", "2017-10-14 14:34:32.510411"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "service_areas" ("name", "job_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "sdsa"], ["job_id", 4], ["created_at", "2017-10-14 14:34:32.512941"], ["updated_at", "2017-10-14 14:34:32.512941"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://67.205.188.72:33918/jobs
+Completed 302 Found in 19344ms (ActiveRecord: 5.9ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 14:34:51 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (4.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 48ms (Views: 42.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/jobs/4" for 76.101.4.106 at 2017-10-14 14:34:58 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered jobs/show.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 49ms (Views: 44.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:35:05 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (4.8ms)
+  Rendered jobs/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 42ms (Views: 38.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:35:27 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pPEYoi/P7420USx5Q+/YEjKLOwuXSWJ0IVypHhMz0CLdyrbWzdkZlN0VET3X4htma9x6bIrf1tht2LKmnFdKyg==", "job"=>{"title"=>"kias", "category_attributes"=>{"name"=>"li"}, "description"=>"asa", "service_areas_attributes"=>{"name"=>"mtest"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "li"], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "li"], ["created_at", "2017-10-14 14:35:27.730141"], ["updated_at", "2017-10-14 14:35:27.730141"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "jobs" ("title", "description", "category_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "kias"], ["description", "asa"], ["category_id", 10], ["user_id", 1], ["created_at", "2017-10-14 14:35:27.761303"], ["updated_at", "2017-10-14 14:35:27.761303"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "service_areas" ("name", "job_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "mtest"], ["job_id", 5], ["created_at", "2017-10-14 14:35:27.763373"], ["updated_at", "2017-10-14 14:35:27.763373"]]
+  [1m[35m (8.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://67.205.188.72:33918/jobs
+Completed 302 Found in 96ms (ActiveRecord: 13.3ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 14:35:27 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (2.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 48ms (Views: 45.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/jobs/5" for 76.101.4.106 at 2017-10-14 14:35:30 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."job_id" = ?[0m  [["job_id", 5]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered jobs/show.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 48ms (Views: 42.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/jobs/5" for 76.101.4.106 at 2017-10-14 14:37:42 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mServiceArea Load (0.4ms)[0m  [1m[34mSELECT "service_areas".* FROM "service_areas" WHERE "service_areas"."job_id" = ?[0m  [["job_id", 5]]
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."job_id" = ?[0m  [["job_id", 5]]
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered jobs/show.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 95ms (Views: 81.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/jobs/5" for 76.101.4.106 at 2017-10-14 14:38:00 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mServiceArea Load (0.2ms)[0m  [1m[34mSELECT "service_areas".* FROM "service_areas" WHERE "service_areas"."job_id" = ?[0m  [["job_id", 5]]
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."job_id" = ?[0m  [["job_id", 5]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered jobs/show.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 54ms (Views: 45.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:42:58 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (7.4ms)
+  Rendered jobs/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 89ms (Views: 35.7ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:43:11 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vNGWA3uFFPYdhPh9JQ53/noHy0Fp0ckr644WGnQ4nKLF6jh3mZPi73TAxTmxA7SKI1CKJnRHfYenCg2i+1wGSg==", "job"=>{"title"=>"mas", "category_attributes"=>{"name"=>"jim"}, "description"=>"asdas", "service_areas_attributes"=>{"name"=>["ser1", "ser2"]}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: name
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "jim"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "jim"], ["created_at", "2017-10-14 14:43:11.827933"], ["updated_at", "2017-10-14 14:43:11.827933"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "jobs" ("title", "description", "category_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "mas"], ["description", "asdas"], ["category_id", 11], ["user_id", 1], ["created_at", "2017-10-14 14:43:11.837936"], ["updated_at", "2017-10-14 14:43:11.837936"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://67.205.188.72:33918/jobs
+Completed 302 Found in 33ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 14:43:11 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/jobs/6" for 76.101.4.106 at 2017-10-14 14:43:14 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  [1m[36mServiceArea Load (0.5ms)[0m  [1m[34mSELECT "service_areas".* FROM "service_areas" WHERE "service_areas"."job_id" = ?[0m  [["job_id", 6]]
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."job_id" = ?[0m  [["job_id", 6]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered jobs/show.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 67ms (Views: 61.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:44:56 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (7.6ms)
+  Rendered jobs/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 95ms (Views: 42.2ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:45:07 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Zwv/5bgWWIBrKjqE2LeyuCEjVdwBz3lyfI8Ol+hM2q0eMFGRWgCumQJuB8BMunHMeHQUuxxZzd4wCxUvZyhARQ==", "job"=>{"title"=>"test", "category_attributes"=>{"name"=>"est"}, "description"=>"as", "service_areas_attributes"=>{"name"=>["servi1", "servi2"]}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: name
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "est"], ["LIMIT", 1]]
+  [1m[35mSQL (3.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "est"], ["created_at", "2017-10-14 14:45:07.050729"], ["updated_at", "2017-10-14 14:45:07.050729"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "jobs" ("title", "description", "category_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "test"], ["description", "as"], ["category_id", 12], ["user_id", 1], ["created_at", "2017-10-14 14:56:17.649236"], ["updated_at", "2017-10-14 14:56:17.649236"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://67.205.188.72:33918/jobs
+Completed 302 Found in 670632ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 14:56:17 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.7ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (15.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 88ms (Views: 75.7ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:56:23 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (9.7ms)
+  Rendered jobs/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 78ms (Views: 49.4ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:57:06 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wyp+xPNA54i+Lkg7zaQzMl6RTlskk8GiYo/1FEh8AmG6EdCwEVYRkddqdX9ZqfBGB8YPPDkFdQ4uC+6sxxiYiQ==", "job"=>{"title"=>"tester", "category_attributes"=>{"name"=>"time"}, "description"=>"sse", "service_areas_attributes"=>{"name"=>"sout", "name2"=>"north", "name3"=>"east"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: name2, name3
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "time"], ["LIMIT", 1]]
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:57:46 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wyp+xPNA54i+Lkg7zaQzMl6RTlskk8GiYo/1FEh8AmG6EdCwEVYRkddqdX9ZqfBGB8YPPDkFdQ4uC+6sxxiYiQ==", "job"=>{"title"=>"tester", "category_attributes"=>{"name"=>"time"}, "description"=>"sse", "service_areas_attributes"=>{"name"=>"sout", "name2"=>"north", "name3"=>"east"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: name2, name3
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "time"], ["LIMIT", 1]]
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 14:57:50 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (1.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (13.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 315ms (Views: 311.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:57:53 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:59:33 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 14:59:33 +0000
+  Rendering jobs/new.html.erb within layouts/application
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "jobs" ("title", "description", "category_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "tester"], ["description", "sse"], ["category_id", 7], ["user_id", 1], ["created_at", "2017-10-14 14:59:33.284750"], ["updated_at", "2017-10-14 14:59:33.284750"]]
+  Rendered jobs/_form.html.erb (121.5ms)
+  Rendered jobs/new.html.erb within layouts/application (164.0ms)
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "service_areas" ("name", "job_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "sout"], ["job_id", 8], ["created_at", "2017-10-14 14:59:33.359252"], ["updated_at", "2017-10-14 14:59:33.359252"]]
+  Rendered jobs/_form.html.erb (83.1ms)
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  Rendered jobs/new.html.erb within layouts/application (105.1ms)
+Redirected to http://67.205.188.72:33918/jobs
+  Rendered jobs/_form.html.erb (233.6ms)
+Completed 302 Found in 106527ms (ActiveRecord: 7.9ms)
+
+
+  Rendered jobs/new.html.erb within layouts/application (289.9ms)
+Completed 200 OK in 100311ms (Views: 351.7ms | ActiveRecord: 0.3ms)
+
+
+Completed 200 OK in 352ms (Views: 336.7ms | ActiveRecord: 0.7ms)
+
+
+Completed 200 OK in 481ms (Views: 454.9ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 14:59:59 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UkWZ1uTqVWaQ0W1OKOymgOQicIBI7QbD4grejAFStj/3ZA4Yn1rdB+VCyC19gxLZDpHqDYT5CTmbDnDb8wSVTw==", "job"=>{"title"=>"pols", "category_attributes"=>{"name"=>"oaks"}, "description"=>"sds", "service_areas_attributes"=>{"name"=>"area1", "name2"=>"area2", "name3"=>"area3"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: name2, name3
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "oaks"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "oaks"], ["created_at", "2017-10-14 14:59:59.457792"], ["updated_at", "2017-10-14 14:59:59.457792"]]
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 15:00:43 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "jobs" ("title", "description", "category_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "pols"], ["description", "sds"], ["category_id", 13], ["user_id", 1], ["created_at", "2017-10-14 15:00:46.750165"], ["updated_at", "2017-10-14 15:00:46.750165"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "service_areas" ("name", "job_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "area1"], ["job_id", 9], ["created_at", "2017-10-14 15:00:46.754012"], ["updated_at", "2017-10-14 15:00:46.754012"]]
+  [1m[35m (7.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://67.205.188.72:33918/jobs
+Completed 302 Found in 47319ms (ActiveRecord: 9.7ms)
+
+
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (18.8ms)
+  Rendered jobs/new.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 203ms (Views: 81.2ms | ActiveRecord: 5.6ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 15:01:11 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ImXk2L8oDvEeL07JGS65WbrCt2ouEbrY/C9vltWPF1uHRHMWxJiGkGu866pMQQ0AUHEt5+IFtSKFK8HBJ9k0Kw==", "job"=>{"title"=>"test2", "category_attributes"=>{"name"=>"time"}, "description"=>"das", "service_areas_attributes"=>{"name"=>"min1", "name2"=>"min2", "name3"=>"min3"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: name2, name3
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "time"], ["LIMIT", 1]]
+  [1m[35mSQL (4.0ms)[0m  [1m[32mINSERT INTO "jobs" ("title", "description", "category_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "test2"], ["description", "das"], ["category_id", 7], ["user_id", 1], ["created_at", "2017-10-14 15:01:31.250387"], ["updated_at", "2017-10-14 15:01:31.250387"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "service_areas" ("name", "job_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "min1"], ["job_id", 10], ["created_at", "2017-10-14 15:01:31.262078"], ["updated_at", "2017-10-14 15:01:31.262078"]]
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://67.205.188.72:33918/jobs
+Completed 302 Found in 19272ms (ActiveRecord: 8.5ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 15:01:31 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (6.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 78ms (Views: 72.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 15:01:43 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (16.6ms)
+  Rendered jobs/new.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 77ms (Views: 59.5ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 15:01:48 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Zz2vUkYqlsUascZ+ciOWmWlOMCHA7EFD4nYmhW5sSiEeBgEmpDxg3HP1+zrmLlXtMBlxRt169e+u8j094QjQyQ==", "job"=>{"title"=>"sdaf", "category_attributes"=>{"name"=>"dssd"}, "description"=>"sd", "service_areas_attributes"=>{"name"=>"1", "name2"=>"2", "name3"=>"3"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: name2, name3
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "dssd"], ["LIMIT", 1]]
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "dssd"], ["created_at", "2017-10-14 15:01:48.665984"], ["updated_at", "2017-10-14 15:01:48.665984"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "jobs" ("title", "description", "category_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "sdaf"], ["description", "sd"], ["category_id", 14], ["user_id", 1], ["created_at", "2017-10-14 15:02:52.269556"], ["updated_at", "2017-10-14 15:02:52.269556"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "service_areas" ("name", "job_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "1"], ["job_id", 11], ["created_at", "2017-10-14 15:02:52.274600"], ["updated_at", "2017-10-14 15:02:52.274600"]]
+  [1m[35m (33.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://67.205.188.72:33918/jobs
+Completed 302 Found in 63664ms (ActiveRecord: 36.4ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 15:02:52 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.5ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (14.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 78ms (Views: 65.9ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 15:02:56 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (9.2ms)
+  Rendered jobs/new.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 77ms (Views: 47.8ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 15:03:39 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tsMVqHIpK+o4HNIPQOIWTPO4ZwjgClyAfmngh0BWAZXP+LvckD/d81FY70vU79U4qu8mb/2c6Cwy7fs/zzKbfQ==", "job"=>{"title"=>"pas", "category_attributes"=>{"name"=>"sdfs"}, "description"=>"sa", "service_areas_attributes"=>{"name"=>"n1", "name2"=>"n2", "name3"=>"n3"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameter: name
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "sdfs"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "sdfs"], ["created_at", "2017-10-14 15:03:39.641568"], ["updated_at", "2017-10-14 15:03:39.641568"]]
+  [1m[35m (2.2ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 211814ms (ActiveRecord: 6.2ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'name2' for ServiceArea.):
+  
+app/models/job.rb:11:in `block in service_areas_attributes='
+app/models/job.rb:9:in `each'
+app/models/job.rb:9:in `service_areas_attributes='
+app/controllers/jobs_controller.rb:14:in `create'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.3ms)
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 15:07:23 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (7.9ms)
+  Rendered jobs/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 93ms (Views: 38.9ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/jobs" for 76.101.4.106 at 2017-10-14 15:07:32 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q5U+m6B65EW06wSTEeb5AnhB7HQzN8kXmDsicjWvVkcOtKlV28psJMF4ofBEiU1bkvJ2+f8jxu3hP4wlx/l1Nw==", "job"=>{"title"=>"sasd", "category_attributes"=>{"name"=>"dsfgs"}, "description"=>"dfd", "service_areas_attributes"=>{"name1"=>"m1", "name2"=>"m2", "name3"=>"m3"}}, "commit"=>"Create Job"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "dsfgs"], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "dsfgs"], ["created_at", "2017-10-14 15:07:32.288180"], ["updated_at", "2017-10-14 15:07:32.288180"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "jobs" ("title", "description", "category_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "sasd"], ["description", "dfd"], ["category_id", 15], ["user_id", 1], ["created_at", "2017-10-14 15:07:32.318478"], ["updated_at", "2017-10-14 15:07:32.318478"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "service_areas" ("name", "job_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "m1"], ["job_id", 12], ["created_at", "2017-10-14 15:07:32.321064"], ["updated_at", "2017-10-14 15:07:32.321064"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "service_areas" ("name", "job_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "m2"], ["job_id", 12], ["created_at", "2017-10-14 15:07:32.323366"], ["updated_at", "2017-10-14 15:07:32.323366"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "service_areas" ("name", "job_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "m3"], ["job_id", 12], ["created_at", "2017-10-14 15:07:32.325371"], ["updated_at", "2017-10-14 15:07:32.325371"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://67.205.188.72:33918/jobs
+Completed 302 Found in 73ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 15:07:32 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.5ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (4.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 50ms (Views: 46.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/jobs/12" for 76.101.4.106 at 2017-10-14 15:07:35 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mJob Load (0.4ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mServiceArea Load (0.2ms)[0m  [1m[34mSELECT "service_areas".* FROM "service_areas" WHERE "service_areas"."job_id" = ?[0m  [["job_id", 12]]
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."job_id" = ?[0m  [["job_id", 12]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered jobs/show.html.erb within layouts/application (27.4ms)
+Completed 200 OK in 68ms (Views: 55.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:08:39 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (182.3ms)
+Completed 500 Internal Server Error in 205ms (ActiveRecord: 1.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `comments_path' for #<#<Class:0x007f71ad273cd0>:0x007f71ad272498>
+Did you mean?  font_path):
+    1: <%= form_for(@comments) do |c| %>
+    2:   <%c.label :comment %>
+    3:   <%c.text_area :comment %>
+    4:   <%c.label :rating %>
+  
+app/views/comments/new.html.erb:1:in `_app_views_comments_new_html_erb___720937359625587245_70063149974240'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.2ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (57.0ms)
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:15:46 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 103ms (ActiveRecord: 1.8ms)
+
+
+  
+SyntaxError (/home/Timcev1/temporary/review_site_rails_project/app/views/comments/new.html.erb:1: syntax error, unexpected tLABEL
+...end=  form_for(@comments), url: job_comments_path(@job) do |...
+...                               ^):
+  
+app/views/comments/new.html.erb:1: syntax error, unexpected tLABEL
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (61.6ms)
+Started GET "/jobs/12" for 76.101.4.106 at 2017-10-14 15:15:53 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mServiceArea Load (0.3ms)[0m  [1m[34mSELECT "service_areas".* FROM "service_areas" WHERE "service_areas"."job_id" = ?[0m  [["job_id", 12]]
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."job_id" = ?[0m  [["job_id", 12]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered jobs/show.html.erb within layouts/application (84.3ms)
+Completed 200 OK in 520ms (Views: 511.1ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:15:56 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/home/Timcev1/temporary/review_site_rails_project/app/views/comments/new.html.erb:1: syntax error, unexpected tLABEL
+...end=  form_for(@comments), url: job_comments_path(@job) do |...
+...                               ^):
+  
+app/views/comments/new.html.erb:1: syntax error, unexpected tLABEL
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (49.9ms)
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:18:28 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (can't write unknown attribute `html`):
+    1: <%= form_for(@job, @comments) do |c| %>
+    2:   <%c.label :comment %>
+    3:   <%c.text_area :comment %>
+    4:   <%c.label :rating %>
+  
+app/views/comments/new.html.erb:1:in `_app_views_comments_new_html_erb__3276272238028909921_70148833169160'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (53.1ms)
+Started GET "/jobs/12" for 76.101.4.106 at 2017-10-14 15:18:51 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mJob Load (0.5ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mServiceArea Load (0.1ms)[0m  [1m[34mSELECT "service_areas".* FROM "service_areas" WHERE "service_areas"."job_id" = ?[0m  [["job_id", 12]]
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."job_id" = ?[0m  [["job_id", 12]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered jobs/show.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 57ms (Views: 51.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:18:53 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (can't write unknown attribute `html`):
+    1: <%= form_for(@job, @comments) do |c| %>
+    2:   <%c.label :comment %>
+    3:   <%c.text_area :comment %>
+    4:   <%c.label :rating %>
+  
+app/views/comments/new.html.erb:1:in `_app_views_comments_new_html_erb__3276272238028909921_70148733257060'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.9ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (70.8ms)
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:19:15 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (56.3ms)
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `comment' for #<Comment:0x007f99982cf478>
+Did you mean?  comments
+               comments=
+               comments?):
+    1: <%= form_for([@job, @comments]) do |c| %>
+    2:   <%c.label :comment %>
+    3:   <%c.text_area :comment %>
+    4:   <%c.label :rating %>
+    5:   <%c.number_field :rating %>
+    6: <%end%>
+  
+app/views/comments/new.html.erb:3:in `block in _app_views_comments_new_html_erb__3276272238028909921_70148761391400'
+app/views/comments/new.html.erb:1:in `_app_views_comments_new_html_erb__3276272238028909921_70148761391400'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.2ms)
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:19:53 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (14.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 71ms (Views: 60.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:20:30 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (4.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 44ms (Views: 35.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:20:58 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (0.4ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (5.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 54ms (Views: 44.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:31:48 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (58.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 513ms (Views: 419.4ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:32:17 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (1.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (5.2ms)
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 67ms (Views: 53.1ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:32:48 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (3.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 51ms (Views: 44.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:33:22 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (11.9ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 189ms (Views: 179.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:33:24 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (4.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 84ms (Views: 78.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:33:51 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (5.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 109ms (Views: 103.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:33:56 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (3.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 35ms (Views: 30.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/jobs/12/comments/new" for 76.101.4.106 at 2017-10-14 15:34:05 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#new as HTML
+  Parameters: {"job_id"=>"12"}
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering comments/new.html.erb within layouts/application
+  Rendered comments/new.html.erb within layouts/application (3.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 68ms (Views: 60.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 15:34:09 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (8.1ms)
+  Rendered jobs/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 70ms (Views: 42.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/categories" for 76.101.4.106 at 2017-10-14 15:34:14 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (13.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 64ms (Views: 49.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 15:34:16 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (1.4ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (5.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 53ms (Views: 48.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/categories" for 76.101.4.106 at 2017-10-14 15:34:17 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (4.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 40ms (Views: 37.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/categories" for 76.101.4.106 at 2017-10-14 15:34:57 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (4.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 50ms (Views: 47.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/categories" for 76.101.4.106 at 2017-10-14 15:34:59 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (4.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 53ms (Views: 49.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 15:35:06 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.5ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (6.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 64ms (Views: 59.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 15:35:18 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (3.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 35ms (Views: 32.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 15:35:27 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (4.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/categories" for 76.101.4.106 at 2017-10-14 15:36:44 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (6.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 48ms (Views: 44.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/categories" for 76.101.4.106 at 2017-10-14 15:36:49 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (3.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 15:36:55 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.4ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (3.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 46ms (Views: 42.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/jobs/new" for 76.101.4.106 at 2017-10-14 15:36:58 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jobs/new.html.erb within layouts/application
+  Rendered jobs/_form.html.erb (8.6ms)
+  Rendered jobs/new.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 55ms (Views: 46.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/categories" for 76.101.4.106 at 2017-10-14 15:36:59 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered categories/index.html.erb within layouts/application (4.4ms)
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 54ms (Views: 49.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/jobs" for 76.101.4.106 at 2017-10-14 15:37:00 +0000
+Cannot render console from 76.101.4.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  Rendered jobs/index.html.erb within layouts/application (2.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 34ms (Views: 31.3ms | ActiveRecord: 0.5ms)
+
+

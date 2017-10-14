@@ -1,5 +1,4 @@
 <h1 class="center">All the Jobs</h1>
 <% @jobs.each do |job| %>
-  <%= link_to job.title, job_path(job) %>
-  <br>
+  <p>Job: <%= link_to job.title, job_path(job) %></p>
 <% end %>

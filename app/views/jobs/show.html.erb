@@ -3,7 +3,9 @@
   <p> <strong>Type of work they do:</strong> <%= @job.category.name %></p>
   <p> <strong>Things about them:</strong> <%= @job.description %></p>
   <p> <strong>Areas they service</strong> </p>
-  <% @job.service_areas.name %>
+  <% @job.service_areas.each do |s| %>
+    <%= s.name %><br>
+  <% end %>
   <% if @job.comments != [] %>
     <p> Comments: </p>
       <% @job.comments.each do |c|%>

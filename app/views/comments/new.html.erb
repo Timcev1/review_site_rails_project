@@ -1,6 +1,10 @@
-<%= form_for(@comments) do |c| %>
-  <%c.label :comment %>
-  <%c.text_area :comment %>
-  <%c.label :rating %>
-  <%c.number_field :rating %>
+<h2 class="center">Add a comment</h2>
+<%= form_for([@job, @comments]) do |c| %>
+<div class="field">
+  <%= c.label :comments %><br>
+  <%= c.text_area :comments %><br>
+  <%= c.label :rating %><br>
+  <%= c.number_field :rating %><br>
+  <%= c.submit %>
+</div>
 <%end%>

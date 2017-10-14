@@ -4,9 +4,10 @@ class Job < ApplicationRecord
   has_many :comments
   has_many :service_areas
 
-    def service_area_attributes=(service_area_attributes)
-      service_area_attributes.each do |i, attributes|
-        self.service_areas.build(attributes)
+    def service_areas_attributes=(service_areas_attributes)
+      service_areas_attributes.each do |key, value|
+        self.service_areas << ServiceArea.create(name: value)
+        self.save
       end
     end
 
