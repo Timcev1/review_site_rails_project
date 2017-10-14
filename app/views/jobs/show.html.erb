@@ -4,4 +4,14 @@
   <p> Things about them: <%= @job.description %></p>
   <p> Areas they service </p>
   <% @job.service_areas.name %>
+  <% if job.comments != nil %>
+    <p> Comments: </p>
+      <% job.comments.each do |c|%>
+        <%= c.comment %>
+        <%= c.rating %>
+      <% end %>
+    <% end %>
+  <% if user_signed_in? %>
+    <%= render partial: "comments/new" %>
+  <% end %>
 </div>

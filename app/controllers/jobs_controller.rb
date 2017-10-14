@@ -7,13 +7,12 @@ class JobsController < ApplicationController
 
   def new
     @jobs = Job.new
-    @service_area = @jobs.service_areas.build
+    @jobs.service_areas.build
   end
 
   def create
     @jobs = Job.new(job_params)
     @jobs = current_user.jobs.build(job_params)
-    @jobs = @jobs.service_areas.build
     binding.pry
     if @jobs.save
       flash[:notice] = "Job successfully created!"

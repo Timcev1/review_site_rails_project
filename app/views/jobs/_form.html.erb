@@ -14,7 +14,7 @@
     <%= r.text_area :description %>
   </div>
   <p> Area They service </p>
-  <%= r.fields_for :service_area_attributes do |ing| %>
+  <%= r.fields_for :service_areas do |ing| %>
     <div class="field">
       <%= ing.label :name %> <%= ing.text_field :name %><br>
     </div>
