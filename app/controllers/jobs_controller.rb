@@ -35,7 +35,7 @@ class JobsController < ApplicationController
     @jobs = Job.find(params[:id])
     if @jobs.update(job_params)
       flash[:notice] = "Job successfully updated."
-      redirect_to user_path(current_user)
+      redirect_to jobs_path
     else
       flash[:alert] = "Job not updated."
       render :edit
@@ -46,7 +46,7 @@ class JobsController < ApplicationController
     @jobs = Job.find(params[:id])
     @jobs.destroy
     flash[:notice] = "Job successfully deleted"
-    redirect_to user_path(current_user)
+    redirect_to jobs_path
   end
 
   private

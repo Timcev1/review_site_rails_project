@@ -1,9 +1,6 @@
-<%= form_for(@comments) do |com|%>
-
-  <%= f.hidden_field :job_id %>
-  <%= com.label :comment %>
-  <%= com.text_field :comment %>
-  <%= com.label :rating %>
-  <%= com.number_field :rating %>
-  <%= com.submit %>
+<%= form_for(@comments) do |c| %>
+  <%c.label :comment %>
+  <%c.text_area :comment %>
+  <%c.label :rating %>
+  <%c.number_field :rating %>
 <%end%>

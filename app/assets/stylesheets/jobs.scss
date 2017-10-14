@@ -1,3 +1,25 @@
 // Place all the styles related to the Jobs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#job {
+  display: block;
+  margin: auto;
+}
+#job h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+.field {
+  margin: 5px;
+  display: block;
+}
+
+.actions {
+  display: block;
+  float: right;
+  border: 1px black solid;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;;
+}

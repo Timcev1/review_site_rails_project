@@ -1,10 +1,10 @@
 <div id="job">
 <h2><%= @job.title %></h2>
-  <p> Type of work they do: <%= @job.category.name %></p>
-  <p> Things about them: <%= @job.description %></p>
-  <p> Areas they service </p>
+  <p> <strong>Type of work they do:</strong> <%= @job.category.name %></p>
+  <p> <strong>Things about them:</strong> <%= @job.description %></p>
+  <p> <strong>Areas they service</strong> </p>
   <% @job.service_areas.name %>
-  <% if @job.comments != nil %>
+  <% if @job.comments != [] %>
     <p> Comments: </p>
       <% @job.comments.each do |c|%>
         <%= c.comment %>
@@ -14,4 +14,11 @@
   <% if user_signed_in? %>
     <%= link_to "Create a new comment", new_job_comment_path(@job) %>
   <% end %>
+  <div class="actions">
+    <p>As the maker of this you have these Options</p>
+    <% if @job.user_id == current_user.id %>
+      <%= link_to 'Delete this Job', @job, method: :delete, data: { confirm: 'Are you sure?' } %>
+      <%= link_to "Edit", edit_job_path %>
+    <%end%>
+  </div>
 </div>
