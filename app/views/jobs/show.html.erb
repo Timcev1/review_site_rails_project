@@ -9,8 +9,10 @@
   <% if @job.comments != nil %>
     <h4> Comments: </h4>
       <% @job.comments.each do |c|%>
-        <p>Comment: <%= c.comments %></p>
-        <p>Rating: <%= c.rating %></p>
+        <div class="comment">
+          Comment: <%= c.comments %><br>
+          Rating: <%= c.rating %>
+        </div>
       <% end %>
     <% end %>
   <% if user_signed_in? %>
