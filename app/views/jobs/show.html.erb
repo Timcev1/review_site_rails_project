@@ -8,19 +8,14 @@
   <% end %>
   <% if @job.comments != nil %>
     <h4> Comments: </h4>
-      <% @job.comments.each do |c|%>
+      <%= link_to "Show Comments", job_comments_path(@job), :class => "showComments" %>
         <div class="comment">
-          Comment: <%= c.comments %><br>
-          Rating: <%= c.rating %><br>
-          <% if c.user %>
-          Submitted by:  <%= c.user.email if c.user.email %>
-          <% end %>
-          <%binding.pry%>
         </div>
-      <% end %>
     <% end %>
   <% if user_signed_in? %>
-    <%= link_to "Create a new comment", new_job_comment_path(@job) %>
+    <%= link_to "Create a new comment", new_job_comment_path(@job), :class => "newcomment" %>
+    <div class="postComment">
+    </div>
     <% if @job.user_id === current_user.id %>
       <div class="useractions">
         <p>As the maker of this you have these Options</p>
