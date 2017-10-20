@@ -17,10 +17,10 @@ class CommentsController < ApplicationController
     @comments.save
     if @comments.valid?
       flash[:notice] = "Comment added."
-      redirect_to job_path(@job)
+      render 'comments/show', :layout => false
     else
       flash[:alert] = "comment not added."
-      redirect_to new_job_comment_path(@job)
+      redirect_to job_path(@job)
     end
   end
 

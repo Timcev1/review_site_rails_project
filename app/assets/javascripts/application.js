@@ -25,6 +25,7 @@ $(document).ready(function(){
   })
   e.preventDefault();
 });
+
   $("a.newcomment").on("click", function(e){
   $.ajax({
     method: "GET",
@@ -34,13 +35,28 @@ $(document).ready(function(){
   })
   e.preventDefault();
   });
-  $("a.submitcomment").on("click", function(e){
-  $.ajax({
-    method: "POST",
-    url: this.href
-  }).done(function(data){
-    $("div.postComment").html(data)
+
+  $("div.postComment").on("submit",function(e){
+    url = this.action
+    data = {
+      'authenticity_token': $("input[name='authenticity_token']").val(),
+      'comment': {
+        'comments': $("#comment_comments").val(),
+        'rating': $('#comment_rating').val()
+      }
+    }
+    debugger
+    $.ajax({
+      type: "POST",
+      url: url,
+      data: data,
+      success: function(response){
+        debugger
+        $("#comment_comments").val("")
+        $('#comment_rating').val("")
+        $('div.comment').append(response);
+      }
+    });
+    e.preventDefault();
   })
-  e.preventDefault();
-  });
-});
+})
