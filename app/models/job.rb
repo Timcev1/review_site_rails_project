@@ -7,8 +7,10 @@ class Job < ApplicationRecord
 
     def service_areas_attributes=(service_areas_attributes)
       service_areas_attributes.each do |key, value|
-        self.service_areas << ServiceArea.create(name: value)
-        self.save
+        if value != ""
+          self.service_areas << ServiceArea.create(name: value)
+          self.save
+        end
       end
     end
 
