@@ -7,6 +7,8 @@ class CommentsController < ApplicationController
   def create
     @jobs = Job.find(params[:job_id])
     @comments = @jobs.comments.create(comments_params)
+    @comments.user_id = current_user.id
+    @comments.save
     if @comments.valid?
       flash[:notice] = "Comment added."
       redirect_to job_path(@job)
@@ -30,6 +32,6 @@ class CommentsController < ApplicationController
   end
 
   def comments_params
-    params.require(:comment).permit(:comments, :rating)
+    params.require(:comment).permit(:comments, :rating, :user_id)
   end
 end

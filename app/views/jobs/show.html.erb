@@ -11,7 +11,11 @@
       <% @job.comments.each do |c|%>
         <div class="comment">
           Comment: <%= c.comments %><br>
-          Rating: <%= c.rating %>
+          Rating: <%= c.rating %><br>
+          <% if c.user %>
+          Submitted by:  <%= c.user.email if c.user.email %>
+          <% end %>
+          <%binding.pry%>
         </div>
       <% end %>
     <% end %>
