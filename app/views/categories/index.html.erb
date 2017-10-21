@@ -1,3 +1,5 @@
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
 <h1 class="center">All Categories</h1>
 <% @categories.each do |category| %>
   <p>Category: <%= link_to category.name, category_path(category), :class => "category" %></p>

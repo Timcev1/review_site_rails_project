@@ -14,7 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-$(document).ready(function(){
+$(document).on('ready page:load', function() {
 
   $("a.showComments").on("click", function(e){
   $.ajax({
@@ -46,7 +46,7 @@ $(document).ready(function(){
   })
   e.preventDefault();
   });
-  
+
   $("#new_comment.new_comment").on("submit",function(e){
     $.ajax({
       type: "POST",
@@ -63,4 +63,3 @@ $(document).ready(function(){
 
 
 })
-
