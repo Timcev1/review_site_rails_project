@@ -47,24 +47,14 @@ $(document).ready(function(){
   e.preventDefault();
   });
   
-  $("#new_comment").on("submit",function(e){
-    url: this.href
-    data = {
-      'authenticity_token': $("input[name='authenticity_token']").val(),
-      'comment': {
-        'comments': $("#comment_comments").val(),
-        'rating': $('#comment_rating').val()
-      }
-    }
-    debugger
+  $("#new_comment.new_comment").on("submit",function(e){
     $.ajax({
       type: "POST",
-      url: url,
-      data: data,
+      url: this.action,
+      data: $(this).serialize(),
       success: function(response){
-        debugger
-        $("#comment_comments").val("")
-        $('#comment_rating').val("")
+        $("#comment_comments").val("");
+        $('#comment_rating').val("");
         $('div.comment').append(response);
       }
     });

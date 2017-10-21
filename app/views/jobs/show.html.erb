@@ -13,7 +13,15 @@
         </div>
     <% end %>
   <% if user_signed_in? %>
-    <%= link_to "Create a new comment", new_job_comment_path(@job), :class => "newcomment" %>
+    <%= form_for([@job, @comments]) do |c| %>
+      <%= hidden_field_tag "job_id", @job.id%>
+      <%= c.label :comments %><br>
+      <%= c.text_area :comments %><br>
+      <%= c.label :rating %><br>
+      <%= c.number_field :rating %><br>
+      <%= c.submit %>
+    <%end%>
+
     <div class="postComment">
     </div>
     <% if @job.user_id === current_user.id %>
