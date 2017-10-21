@@ -38,3 +38,13 @@ footer {
   bottom:0;
   border-top: 1px black dashed;
 }
+.cat_job{
+  display: block;
+  float: right;
+  position:relative;
+  width: 40%;
+}
+
+.cat_job h2{
+  text-align: center;
+}

@@ -1,4 +1,4 @@
-<h2 class="center"><%=@category.name%></h2>
+<h2><%=@category.name%></h2>
 <% @category.jobs.each do |job| %>
   <%= link_to job.title, job_path(job) %>
   <br>

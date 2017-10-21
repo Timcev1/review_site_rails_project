@@ -36,8 +36,19 @@ $(document).ready(function(){
   e.preventDefault();
   });
 
-  $("div.postComment").on("submit",function(e){
-    url = this.action
+
+  $("a.category").on("click", function(e){
+  $.ajax({
+    method: "GET",
+    url: this.href
+  }).done(function(data){
+    $("div.cat_job").html(data)
+  })
+  e.preventDefault();
+  });
+  
+  $("#new_comment").on("submit",function(e){
+    url: this.href
     data = {
       'authenticity_token': $("input[name='authenticity_token']").val(),
       'comment': {
@@ -59,4 +70,7 @@ $(document).ready(function(){
     });
     e.preventDefault();
   })
+
+
 })
+

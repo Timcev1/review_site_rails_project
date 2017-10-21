@@ -2,7 +2,7 @@ class CommentsController < ApplicationController
   before_action :get_job
   def new
     @comments = @job.comments.build
-      render :layout => false
+    render :layout => false
   end
 
   def index
