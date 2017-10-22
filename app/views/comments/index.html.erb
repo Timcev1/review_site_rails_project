@@ -1,7 +1,7 @@
 <% @comments.each do |comment| %>
-  Comment: <%= comment.comments %><br>
-  Rating: <%= comment.rating %><br>
+  <strong>Comment:</strong> <%= comment.comments %><br>
+    <strong>Rating:</strong><%= comment.rating %><br>
   <% if comment.user %>
     Submitted by:  <%= comment.user.email if comment.user.email %><br>
-  <% end %>
+  <% end %><br>
 <% end %>

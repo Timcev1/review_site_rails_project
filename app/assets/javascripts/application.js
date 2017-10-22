@@ -56,6 +56,7 @@ $(document).on('ready page:load', function() {
         $("#comment_comments").val("");
         $('#comment_rating').val("");
         $('div.comment').append(response);
+        $('.submit_button').prop('disabled', false);
       }
     });
     e.preventDefault();
