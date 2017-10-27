@@ -48,3 +48,7 @@ footer {
 .cat_job h2{
   text-align: center;
 }
+
+#header p {
+  text-align: left;
+}
