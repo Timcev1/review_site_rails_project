@@ -7,7 +7,7 @@ class CommentsController < ApplicationController
 
   def index
     @comments = @job.comments
-    render :layout => false
+    render json: @comments
   end
 
   def create

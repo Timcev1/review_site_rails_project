@@ -34,6 +34,7 @@ gem 'omniauth-facebook'
 gem 'omniauth-github'
 gem 'dotenv-rails'
 gem "pry"
+gem 'active_model_serializers'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
