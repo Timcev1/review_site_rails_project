@@ -18,12 +18,15 @@
 $(document).on('ready page:load', function() {
 
   $("a.showComments").on("click", function(e){
-    debugger
   $.ajax({
     method: "GET",
     url: this.href
   }).done(function(data){
-    $("div.comment").html(data)
+    var x = ""
+    for (i = 0; i < data.length; i++){
+    x +=  "<p>"+"Comment: " + data[i].comments +"</p>"+"<p>"+ "rating: " +data[i].rating + "</p>"
+    }
+    $("div.comment").html(x)
   })
   e.preventDefault();
 });
