@@ -24,7 +24,7 @@ $(document).on('ready page:load', function() {
   }).done(function(data){
     var x = ""
     for (i = 0; i < data.length; i++){
-    x +=  "<p>"+"Comment: " + data[i].comments +"</p>"+"<p>"+ "rating: " +data[i].rating + "</p>"
+      x += "<p>"+"Comment: " + data[i].comments +"<br>"+ "rating: " +data[i].rating + "<br>"+ "Submitted by: " + data[i].user.email+ "</p>"
     }
     $("div.comment").html(x)
   })
