@@ -62,5 +62,9 @@ $(document).on('ready page:load', function() {
     e.preventDefault();
   })
 
+  function Comments(comments, rating){
+    this.comments = comments
+    this.rating = rating
+  }
 
 })
