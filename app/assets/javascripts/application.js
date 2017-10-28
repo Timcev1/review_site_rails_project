@@ -14,9 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
 $(document).on('ready page:load', function() {
 
   $("a.showComments").on("click", function(e){
+    debugger
   $.ajax({
     method: "GET",
     url: this.href
@@ -27,13 +29,13 @@ $(document).on('ready page:load', function() {
 });
 
   $("a.newcomment").on("click", function(e){
-  $.ajax({
-    method: "GET",
-    url: this.href
-  }).done(function(data){
-    $("div.postComment").html(data)
-  })
-  e.preventDefault();
+    $.ajax({
+        method: "GET",
+        url: this.href
+      }).done(function(data){
+        $("div.postComment").html(data)
+      })
+    e.preventDefault();
   });
 
 
@@ -62,9 +64,10 @@ $(document).on('ready page:load', function() {
     e.preventDefault();
   })
 
-  function Comments(comments, rating){
-    this.comments = comments
-    this.rating = rating
+  function Comments(attributes){
+    this.comments = attributes.comments;
+    this.rating = attributes.rating;
+    this.id = attributes.id;
   }
 
 })
