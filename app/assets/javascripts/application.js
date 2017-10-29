@@ -67,10 +67,13 @@ $(document).on('ready page:load', function() {
     e.preventDefault();
   })
 
-  function Comments(attributes){
-    this.comments = attributes.comments;
-    this.rating = attributes.rating;
-    this.id = attributes.id;
+  function Comments(data){
+    this.comments = data.comments;
+    this.rating = data.rating;
+    this.email = data.user.email;
+  }
+  Comments.prototype.name = function(){
+    return this.comments + "<br>" + this.rating + "<br" + this.email
   }
 
 })
