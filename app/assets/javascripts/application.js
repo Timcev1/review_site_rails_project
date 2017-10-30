@@ -81,7 +81,9 @@ $(document).on('ready page:load', function() {
     this.comments = comments
     this.rating = rating
     this.email = email
+    this.print = function(){
 
+    }
   }
 
 })
