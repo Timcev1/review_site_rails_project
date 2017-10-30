@@ -24,7 +24,8 @@ $(document).on('ready page:load', function() {
   }).done(function(data){
     var x = ""
     for (i = 0; i < data.length; i++){
-      x += "<p>"+"Comment: " + data[i].comments +"<br>"+ "rating: " +data[i].rating + "<br>"+ "Submitted by: " + data[i].user.email+ "</p>"
+      Comment(data[i].comments, data[i].rating, data[i].user.email)
+      //x += "<p>"+"Comment: " + data[i].comments +"<br>"+ "rating: " +data[i].rating + "<br>"+ "Submitted by: " + data[i].user.email+ "</p>"
     }
     $("div.comment").html(x)
   })
@@ -72,8 +73,15 @@ $(document).on('ready page:load', function() {
     this.rating = data.rating;
     this.email = data.user.email;
   }
-  Comments.prototype.name = function(){
-    return this.comments + "<br>" + this.rating + "<br" + this.email
+  Comment.prototype = function(){
+    return this.comments + "<br>" + this.rating + "<br>" + this.email
+  }
+
+  class Comment(comments, rating, email){
+    this.comments = comments
+    this.rating = rating
+    this.email = email
+
   }
 
 })
