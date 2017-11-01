@@ -17,6 +17,18 @@
 
 $(document).on('ready page:load', function() {
 
+
+  class Comment{
+    constructor(comment, rating, email){
+      this.comment = comment
+      this.rating = rating
+      this.email = email
+    }
+  }
+  Comment.prototype.display = function(){
+    return "Comment: "+ this.comment + "<br>" + "Rating: "+ this.rating + "<br>" + "Email: "+ this.email + "<br>" + "<br>"
+  }
+
   $("a.showComments").on("click", function(e){
   $.ajax({
     method: "GET",
@@ -24,7 +36,7 @@ $(document).on('ready page:load', function() {
   }).done(function(data){
     var x = ""
     for (i = 0; i < data.length; i++){
-      Comment(data[i].comments, data[i].rating, data[i].user.email)
+      x += new Comment(data[i].comments, data[i].rating, data[i].user.email).display()
       //x += "<p>"+"Comment: " + data[i].comments +"<br>"+ "rating: " +data[i].rating + "<br>"+ "Submitted by: " + data[i].user.email+ "</p>"
     }
     $("div.comment").html(x)
@@ -68,22 +80,6 @@ $(document).on('ready page:load', function() {
     e.preventDefault();
   })
 
-  function Comments(data){
-    this.comments = data.comments;
-    this.rating = data.rating;
-    this.email = data.user.email;
-  }
-  Comment.prototype = function(){
-    return this.comments + "<br>" + this.rating + "<br>" + this.email
-  }
 
-  class Comment(comments, rating, email){
-    this.comments = comments
-    this.rating = rating
-    this.email = email
-    this.print = function(){
-
-    }
-  }
 
 })
