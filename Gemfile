@@ -34,7 +34,6 @@ gem 'omniauth-github'
 gem 'dotenv-rails'
 gem "pry"
 gem 'active_model_serializers'
-gem 'bootstrap-sass'
 gem 'bootstrap'
 gem 'rake'
 # Use Redis adapter to run Action Cable in production
