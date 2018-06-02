@@ -35,7 +35,6 @@ gem 'dotenv-rails'
 gem "pry"
 gem 'active_model_serializers'
 gem 'bootstrap', '~> 4.1.1'
-gem 'bootstrap-sass', '~> 3.3.7'
 gem 'rake', '~> 12.2.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
