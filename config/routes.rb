@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   end
   root 'jobs#index', as: 'home'
   devise_for :users, :controllers => { :omniauth_callbacks => "callbacks" }
+  get '/user/sign_out', to: redirect('/jobs') 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
