@@ -36,6 +36,7 @@ gem "pry"
 gem 'active_model_serializers'
 gem 'bootstrap', '~> 4.1.1'
 gem 'rake', '~> 12.2.1'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password

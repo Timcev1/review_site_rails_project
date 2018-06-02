@@ -27,7 +27,7 @@ $(document).on('ready page:load', function() {
     }
   }
   Comment.prototype.display = function(){
-    return "Comment: "+ this.comment + "<br>" + "Rating: "+ this.rating + "<br>" + "Email: "+ this.email + "<br>" + "<br>"
+    return <b> + "Comment: "+ </b> + this.comment + "<br>" + <b> + "Rating: " + </b> + this.rating + "<br>" +<b>+ "Email: " + </b> + this.email + "<br>" + "<br>"
   }
 
   $("a.showComments").on("click", function(e){
@@ -38,7 +38,6 @@ $(document).on('ready page:load', function() {
     var x = ""
     for (i = 0; i < data.length; i++){
       x += new Comment(data[i].comments, data[i].rating, data[i].user.email).display()
-      //x += "<p>"+"Comment: " + data[i].comments +"<br>"+ "rating: " +data[i].rating + "<br>"+ "Submitted by: " + data[i].user.email+ "</p>"
     }
     $("div.comment").html(x)
   })
