@@ -150,6 +150,8 @@ GEM
       cocaine (~> 0.5.5)
       mime-types
       mimemagic (~> 0.3.0)
+    pg (1.0.0)
+    pg (1.0.0-x64-mingw32)
     popper_js (1.12.9)
     pry (0.11.2)
       coderay (~> 1.1.0)
@@ -255,6 +257,7 @@ DEPENDENCIES
   omniauth-facebook
   omniauth-github
   paperclip
+  pg
   pry
   puma (~> 3.0)
   rails (~> 5.0.2)
