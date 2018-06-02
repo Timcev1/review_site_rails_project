@@ -14,6 +14,7 @@
  *= require_self
  */
  @import "bootstrap";
+
  body{
    background: #f2f2f2;
  }
@@ -23,7 +24,7 @@
     min-height: 600px;
 }
 .navigationlinks{
-  max-width: 1028px;
+  max-width: 450px;
   margin:auto;
 }
 .navbar-light{
