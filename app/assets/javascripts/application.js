@@ -27,7 +27,7 @@ $(document).on('ready page:load', function() {
     }
   }
   Comment.prototype.display = function(){
-    return <b> + "Comment: "+ </b> + this.comment + "<br>" + <b> + "Rating: " + </b> + this.rating + "<br>" +<b>+ "Email: " + </b> + this.email + "<br>" + "<br>"
+    return "Comment: "+ this.comment + "<br>" + "Rating: "+ this.rating + "<br>" + "Email: "+ this.email + "<br>" + "<br>"
   }
 
   $("a.showComments").on("click", function(e){
