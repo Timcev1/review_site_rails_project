@@ -1,5 +1,5 @@
-Comment: <%= @comments.comments %><br>
-Rating: <%= @comments.rating %><br>
+<p><b>Comment:</b> <%= @comments.comments %><br></p>
+<p><b>Rating:</b> <%= @comments.rating %><br></p>
 <% if @comments.user %>
   Submitted by:  <%= @comments.user.email if @comments.user.email %><br>
 <% end %>

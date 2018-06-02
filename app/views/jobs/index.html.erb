@@ -1,4 +1,15 @@
-<h1 class="center">All the Jobs</h1>
-<% @jobs.each do |job| %>
-  <p>Job: <%= link_to job.title, job_path(job) %></p>
-<% end %>
+<h2 class="center">Reviewed Companies</h2>
+<div class="row">
+  <div class="col-xs-4">
+    <p>Here is the listing of all jobs that have been reviewed.</p>
+  </div>
+  <div class="">
+  <% @jobs.each do |job| %>
+    <div class="">
+      <div class ="col-xs-4">
+        <p>Company Name: <%= link_to job.title, job_path(job) %></p>
+      </div>
+    </div>
+  <% end %>
+  </div>
+</div>

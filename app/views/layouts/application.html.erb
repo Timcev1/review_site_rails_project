@@ -9,24 +9,42 @@
   </head>
 
   <body>
-    <div id="title">
+    <div id="header" class="title header">
       <h1>Job Reviewer</h1>
     </div>
-    <div id="header">
-      <div id="navigation">
-        <%= link_to "Home", jobs_path %>
-        <%= link_to "Categories", categories_path %>
-        <% if user_signed_in? %>
-        <%= link_to "Create a new Job", new_job_path %>
-        <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
-        <% else %>
-          <%= link_to "Sign up", new_user_registration_path %>
-          <%= link_to "sign in", new_user_session_path %>
-        <%end%>
+    <div class="wholeNavbar">
+      <nav class="navbar-light ">
+        <div id="navigation" class="navigationlinks navbar">
+          <ul class="nav navbar-nav bg-dark">
+            <li class="nav-item">
+              <%= link_to "Home", jobs_path, class: 'nav-link active' %>
+            </li>
+            <li class="nav-item">
+              <%= link_to "Categories", categories_path, class: 'nav-link' %>
+            </li>
+          <% if user_signed_in? %>
+          <li class="nav-item">
+          <%= link_to "Create a new Job", new_job_path,class: 'nav-link'  %>
+          </li>
+          <li class="nav-item">
+          <%= link_to "Sign out", destroy_user_session_path, :method => :delete, class: 'nav-link'  %>
+          </li>
+          <% else %>
+          <li class="nav-item">
+            <%= link_to "Sign up", new_user_registration_path, class: 'nav-link'  %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "Sign in", new_user_session_path, class: 'nav-link'  %>
+          </li>
+          <%end%>
+        </ul>
 
-    </div>
+      </div>
+    </nav>
   </div>
+  <div class="mainBody content container-fluid">
     <%= yield %>
+  </div>
     <footer>A project for Learn.co. by: Timothy C</id></footer>
   </body>
 </html>

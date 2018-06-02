@@ -13,11 +13,31 @@
  *= require_tree .
  *= require_self
  */
-#title {
+ @import "bootstrap";
+ body{
+   background: #f2f2f2;
+ }
+.mainBody{
+    max-width: 1200px;
+    box-shadow: 1px 1px 5px 1px dimgrey;
+    min-height: 600px;
+}
+.navigationlinks{
+  max-width: 1028px;
+  margin:auto;
+}
+.navbar-light{
+  background-color: #e3f2fd;
+  box-shadow: 0px 1px;
+}
+.wholeNavbar{
+
+}
+
+.title {
   font-size: 300%;
   display: block;
-  margin: 30px;
-  border: 5px black solid;
+  padding: 30px;
   text-align: center;
   background-color: lightyellow;
 }
@@ -25,8 +45,6 @@
   display: block;
   text-align: center;
   border-bottom: .2px black solid;
-  margin: 10px;
-  height: 25px;
 }
 .center{
   text-align: center;
@@ -51,4 +69,8 @@ footer {
 
 #header p {
   text-align: left;
+}
+
+.content{
+  background-color: white;
 }

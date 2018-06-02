@@ -1,5 +1,7 @@
-<h2><%=@category.name%></h2>
-<% @category.jobs.each do |job| %>
-  <%= link_to job.title, job_path(job) %>
-  <br>
-<% end %>
+<h2 class="center"><%=@category.name%></h2>
+<div class="col-sm-4">
+  <% @category.jobs.each do |job| %>
+    <%= link_to job.title, job_path(job) %>
+    <br>
+  <% end %>
+</div>

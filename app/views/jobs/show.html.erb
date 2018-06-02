@@ -1,37 +1,45 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 <div id="job">
 <h2><%= @job.title %></h2>
-  <p> <strong>Type of work they do:</strong> <%= @job.category.name %></p>
-  <p> <strong>Things about them:</strong> <%= @job.description %></p>
-  <p> <strong>Areas they service</strong> </p>
-  <% @job.service_areas.each do |s| %>
-    <%= s.name %><br>
-  <% end %>
-  <% if @job.comments != nil %>
-    <h4> Comments: </h4>
-      <%= link_to "Show Comments", job_comments_path(@job), :class => "showComments" %>
-        <div class="comment">
-        </div>
+  <div class="row col-sm-12">
+    <div class="col-sm-6">
+      <p> <strong>Type of work they do:</strong> <%= @job.category.name %></p>
+      <p> <strong>Things about them:</strong> <%= @job.description %></p>
+      <p> <strong>Areas they service</strong> </p>
+    <% @job.service_areas.each do |s| %>
+      <%= s.name %><br>
     <% end %>
-  <% if user_signed_in? %>
-    <%= form_for([@job, @comments]) do |c| %>
-      <%= hidden_field_tag "job_id", @job.id%>
-      <%= c.label :comments %><br>
-      <%= c.text_area :comments %><br>
-      <%= c.label :rating %><br>
-      <%= c.number_field :rating %><br>
-      <%= c.submit class:"submit_button" %>
-    <%end%>
-
-    <div class="postComment">
+      <h5>Job submited by: <%= @job.user.email %></h5>
     </div>
-    <% if @job.user_id === current_user.id %>
-      <div class="useractions">
-        <p>As the maker of this you have these Options</p>
-        <%= link_to 'Delete this Job', @job, method: :delete, data: { confirm: 'Are you sure?' } %>
-        <%= link_to "Edit", edit_job_path %>
+    <div class="col-sm-6">
+    <% if @job.comments != nil %>
+      <h4> Comments: </h4>
+        <%= link_to "Show Comments", job_comments_path(@job), :class => "showComments" %>
+          <div class="comment">
+          </div>
+      <% end %>
+      <% if user_signed_in? %>
+        <%= form_for([@job, @comments]) do |c| %>
+          <%= hidden_field_tag "job_id", @job.id%>
+          <%= c.label :comments %><br>
+          <%= c.text_area :comments %><br>
+          <%= c.label :rating %><br>
+          <%= c.number_field :rating %><br>
+          <%= c.submit class:"submit_button" %>
+        <%end%>
+
+        <div class="postComment">
+        </div>
+        <% if @job.user_id === current_user.id %>
+          <div class="useractions">
+            <p>As the maker of this you have these Options</p>
+            <%= link_to 'Delete this Job', @job, method: :delete, data: { confirm: 'Are you sure?' } %>
+            <%= link_to "Edit", edit_job_path %>
+          </div>
+          <%end%>
+        <% end %>
       </div>
-      <%end%>
-    <% end %>
-  <h5>Job submited by: <%= @job.user.email %></h5>
+
+
+  </div>
 </div>
